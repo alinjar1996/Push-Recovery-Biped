@@ -1,4 +1,5 @@
 # Push-Recovery-Biped
+
 This repository contains Python codes for an algorithm developed for push recovery of a biped from different stance scenarios. The stance scenarios are: Double contact at the same level ground, Double contact at Different level ground, and initial Single contact.
 
 Please follow the following steps to run the necessary codes.
