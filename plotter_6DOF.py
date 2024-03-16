@@ -109,7 +109,7 @@ LARGE_SIZE =  12
 
 if file == folder+'vcm.csv' and rms == False:
     
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -133,7 +133,7 @@ if file == folder+'vcm.csv' and rms == False:
 elif file == folder+'cm.csv' and rms == False:
 
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -152,7 +152,7 @@ elif file == folder+'cm.csv' and rms == False:
 
 elif file == folder+'h_err.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -169,7 +169,7 @@ elif file == folder+'h_err.csv':
 
 elif file == folder+'jtorques.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -192,7 +192,7 @@ elif file == folder+'jtorques.csv':
 
 elif file == folder+'jvel.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
     
@@ -214,7 +214,7 @@ elif file == folder+'jvel.csv':
 
 elif file == folder+'jointvelerror.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -236,7 +236,7 @@ elif file == folder+'jointvelerror.csv':
 
 elif file == folder+'jointposerror.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -257,7 +257,7 @@ elif file == folder+'jointposerror.csv':
 
 elif file == folder+'jointposition.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -277,7 +277,7 @@ elif file == folder+'jointposition.csv':
 
 elif file == folder+'jointvelocity.csv':
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -301,7 +301,7 @@ elif file == folder+'jointvelocity.csv':
 
 elif file == folder+'omegaerr.csv' and rms == False:
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -320,7 +320,7 @@ elif file == folder+'omegaerr.csv' and rms == False:
 
 elif file == folder+'linvelerr.csv' and rms == False:
     
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -339,7 +339,7 @@ elif file == folder+'linvelerr.csv' and rms == False:
 
 elif file == folder+'X.csv' and rms == False:
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -360,7 +360,7 @@ elif file == folder+'X.csv' and rms == False:
 
 elif file == folder+'ReactionForce.csv' and rms == False:
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
     
@@ -381,7 +381,7 @@ elif file == folder+'ReactionForce.csv' and rms == False:
 
 elif file == folder+'Force_check.csv' and rms == False:
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -400,7 +400,7 @@ elif file == folder+'Force_check.csv' and rms == False:
 
 elif file == folder+'ZMP.csv' and rms == False:
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
@@ -419,7 +419,7 @@ elif file == folder+'ZMP.csv' and rms == False:
 
 elif file == folder+'Margincheck.csv' and rms == False:
 
-    plotting_data_  = Filter.filter(plotting_data,timearray,n,m)
+    plotting_data_  =  plotting_data
 
     plotting_data = plotting_data_.T 
 
