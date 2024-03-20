@@ -23,3 +23,5 @@ Please follow the following steps to run the necessary codes.
 9. Please note that the URDF files are updated so that the mass and inertia properties closely match the hardware developed at IIT Delhi by the author and his team. 
 
 10. Please also note that there are still some redundant files in the repository. It is time-consuming to detect and remove all of them. However, in future, they will be selected and removed.
+
+11. The videoes of the results are available at: https://shorturl.at/dkNX0 
